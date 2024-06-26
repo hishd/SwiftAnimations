@@ -10,6 +10,8 @@ import UIKit
 
 final class RootView: UIView {
     
+    var loginButtonWidthAnchor: NSLayoutConstraint?
+    
     lazy var title: UILabel = {
         let text = UILabel()
         text.textColor = .white
@@ -63,6 +65,13 @@ final class RootView: UIView {
         return imageView
     }()
     
+    lazy var activityIndicator: UIActivityIndicatorView = {
+        let view = UIActivityIndicatorView()
+        view.hidesWhenStopped = true
+        view.stopAnimating()
+        return view
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupSubViews()
@@ -79,16 +88,20 @@ final class RootView: UIView {
         title.centerX(inView: self, topAnchor: self.safeAreaLayoutGuide.topAnchor, paddingTop: 40)
         
         self.addSubview(userEmailField)
+        userEmailField.setHeight(of: 48)
         userEmailField.anchor(left: self.leftAnchor, right: self.rightAnchor, paddingLeft: 40, paddingRight: 40)
         userEmailField.centerX(inView: self, topAnchor: title.bottomAnchor, paddingTop: 60)
         
         self.addSubview(passwordField)
+        passwordField.setHeight(of: 48)
         passwordField.anchor(left: self.leftAnchor, right: self.rightAnchor, paddingLeft: 40, paddingRight: 40)
         passwordField.centerX(inView: self, topAnchor: userEmailField.bottomAnchor, paddingTop: 26)
         
+        self.loginButtonWidthAnchor = NSLayoutConstraint(item: loginButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 120)
         self.addSubview(loginButton)
-        loginButton.setDimensions(height: 40, width: 120)
+        loginButton.setHeight(of: 48)
         loginButton.centerX(inView: self, topAnchor: passwordField.bottomAnchor, paddingTop: 26)
+        loginButtonWidthAnchor?.isActive = true
         
         self.insertSubview(cloud1, belowSubview: userEmailField)
         cloud1.setDimensions(height: 140, width: 220)
@@ -98,5 +111,9 @@ final class RootView: UIView {
         resetButton.setDimensions(height: 40, width: 100)
         resetButton.centerX(inView: self)
         resetButton.anchor(bottom: self.safeAreaLayoutGuide.bottomAnchor, paddingBottom: 32)
+        
+        self.addSubview(activityIndicator)
+        activityIndicator.setDimensions(height: 40, width: 40)
+        activityIndicator.centerY(inView: loginButton, leftAnchor: loginButton.leftAnchor, paddingLeft: 10)
     }
 }
