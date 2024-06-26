@@ -9,24 +9,13 @@
 /* Begin PBXBuildFile section */
 		FD81D0CE2C2B9C6900098C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D0CD2C2B9C6900098C59 /* AppDelegate.swift */; };
 		FD81D0D02C2B9C6900098C59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D0CF2C2B9C6900098C59 /* SceneDelegate.swift */; };
-		FD81D0D22C2B9C6900098C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D0D12C2B9C6900098C59 /* ViewController.swift */; };
-		FD81D0D52C2B9C6900098C59 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FD81D0D42C2B9C6900098C59 /* Base */; };
 		FD81D0D72C2B9C6C00098C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD81D0D62C2B9C6C00098C59 /* Assets.xcassets */; };
 		FD81D0DA2C2B9C6C00098C59 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FD81D0D92C2B9C6C00098C59 /* Base */; };
 		FD81D0E52C2B9C6C00098C59 /* SwiftAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D0E42C2B9C6C00098C59 /* SwiftAnimationsTests.swift */; };
-		FD81D0EF2C2B9C6C00098C59 /* SwiftAnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D0EE2C2B9C6C00098C59 /* SwiftAnimationsUITests.swift */; };
-		FD81D0F12C2B9C6C00098C59 /* SwiftAnimationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D0F02C2B9C6C00098C59 /* SwiftAnimationsUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FD81D0E12C2B9C6C00098C59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD81D0C22C2B9C6800098C59 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FD81D0C92C2B9C6900098C59;
-			remoteInfo = SwiftAnimations;
-		};
-		FD81D0EB2C2B9C6C00098C59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FD81D0C22C2B9C6800098C59 /* Project object */;
 			proxyType = 1;
@@ -39,16 +28,11 @@
 		FD81D0CA2C2B9C6900098C59 /* SwiftAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD81D0CD2C2B9C6900098C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD81D0CF2C2B9C6900098C59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD81D0D12C2B9C6900098C59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD81D0D42C2B9C6900098C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD81D0D62C2B9C6C00098C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD81D0D92C2B9C6C00098C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD81D0DB2C2B9C6C00098C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD81D0E02C2B9C6C00098C59 /* SwiftAnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD81D0E42C2B9C6C00098C59 /* SwiftAnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnimationsTests.swift; sourceTree = "<group>"; };
-		FD81D0EA2C2B9C6C00098C59 /* SwiftAnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD81D0EE2C2B9C6C00098C59 /* SwiftAnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnimationsUITests.swift; sourceTree = "<group>"; };
-		FD81D0F02C2B9C6C00098C59 /* SwiftAnimationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnimationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +50,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD81D0E72C2B9C6C00098C59 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +58,6 @@
 			children = (
 				FD81D0CC2C2B9C6900098C59 /* SwiftAnimations */,
 				FD81D0E32C2B9C6C00098C59 /* SwiftAnimationsTests */,
-				FD81D0ED2C2B9C6C00098C59 /* SwiftAnimationsUITests */,
 				FD81D0CB2C2B9C6900098C59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +67,6 @@
 			children = (
 				FD81D0CA2C2B9C6900098C59 /* SwiftAnimations.app */,
 				FD81D0E02C2B9C6C00098C59 /* SwiftAnimationsTests.xctest */,
-				FD81D0EA2C2B9C6C00098C59 /* SwiftAnimationsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +74,12 @@
 		FD81D0CC2C2B9C6900098C59 /* SwiftAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				FD81D0FF2C2B9DE300098C59 /* Presentation */,
+				FD81D0FE2C2B9DDB00098C59 /* Application */,
+				FD81D0FD2C2B9D4200098C59 /* Resources */,
 				FD81D0CD2C2B9C6900098C59 /* AppDelegate.swift */,
 				FD81D0CF2C2B9C6900098C59 /* SceneDelegate.swift */,
-				FD81D0D12C2B9C6900098C59 /* ViewController.swift */,
-				FD81D0D32C2B9C6900098C59 /* Main.storyboard */,
-				FD81D0D62C2B9C6C00098C59 /* Assets.xcassets */,
 				FD81D0D82C2B9C6C00098C59 /* LaunchScreen.storyboard */,
-				FD81D0DB2C2B9C6C00098C59 /* Info.plist */,
 			);
 			path = SwiftAnimations;
 			sourceTree = "<group>";
@@ -118,13 +92,27 @@
 			path = SwiftAnimationsTests;
 			sourceTree = "<group>";
 		};
-		FD81D0ED2C2B9C6C00098C59 /* SwiftAnimationsUITests */ = {
+		FD81D0FD2C2B9D4200098C59 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FD81D0EE2C2B9C6C00098C59 /* SwiftAnimationsUITests.swift */,
-				FD81D0F02C2B9C6C00098C59 /* SwiftAnimationsUITestsLaunchTests.swift */,
+				FD81D0DB2C2B9C6C00098C59 /* Info.plist */,
+				FD81D0D62C2B9C6C00098C59 /* Assets.xcassets */,
 			);
-			path = SwiftAnimationsUITests;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FD81D0FE2C2B9DDB00098C59 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FD81D0FF2C2B9DE300098C59 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +153,6 @@
 			productReference = FD81D0E02C2B9C6C00098C59 /* SwiftAnimationsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FD81D0E92C2B9C6C00098C59 /* SwiftAnimationsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FD81D0FA2C2B9C6C00098C59 /* Build configuration list for PBXNativeTarget "SwiftAnimationsUITests" */;
-			buildPhases = (
-				FD81D0E62C2B9C6C00098C59 /* Sources */,
-				FD81D0E72C2B9C6C00098C59 /* Frameworks */,
-				FD81D0E82C2B9C6C00098C59 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FD81D0EC2C2B9C6C00098C59 /* PBXTargetDependency */,
-			);
-			name = SwiftAnimationsUITests;
-			productName = SwiftAnimationsUITests;
-			productReference = FD81D0EA2C2B9C6C00098C59 /* SwiftAnimationsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +167,6 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					FD81D0DF2C2B9C6C00098C59 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = FD81D0C92C2B9C6900098C59;
-					};
-					FD81D0E92C2B9C6C00098C59 = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = FD81D0C92C2B9C6900098C59;
 					};
@@ -221,7 +187,6 @@
 			targets = (
 				FD81D0C92C2B9C6900098C59 /* SwiftAnimations */,
 				FD81D0DF2C2B9C6C00098C59 /* SwiftAnimationsTests */,
-				FD81D0E92C2B9C6C00098C59 /* SwiftAnimationsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +198,10 @@
 			files = (
 				FD81D0D72C2B9C6C00098C59 /* Assets.xcassets in Resources */,
 				FD81D0DA2C2B9C6C00098C59 /* Base in Resources */,
-				FD81D0D52C2B9C6900098C59 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FD81D0DE2C2B9C6C00098C59 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD81D0E82C2B9C6C00098C59 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,7 +215,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD81D0D22C2B9C6900098C59 /* ViewController.swift in Sources */,
 				FD81D0CE2C2B9C6900098C59 /* AppDelegate.swift in Sources */,
 				FD81D0D02C2B9C6900098C59 /* SceneDelegate.swift in Sources */,
 			);
@@ -272,15 +228,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD81D0E62C2B9C6C00098C59 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD81D0EF2C2B9C6C00098C59 /* SwiftAnimationsUITests.swift in Sources */,
-				FD81D0F12C2B9C6C00098C59 /* SwiftAnimationsUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,22 +236,9 @@
 			target = FD81D0C92C2B9C6900098C59 /* SwiftAnimations */;
 			targetProxy = FD81D0E12C2B9C6C00098C59 /* PBXContainerItemProxy */;
 		};
-		FD81D0EC2C2B9C6C00098C59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FD81D0C92C2B9C6900098C59 /* SwiftAnimations */;
-			targetProxy = FD81D0EB2C2B9C6C00098C59 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FD81D0D32C2B9C6900098C59 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD81D0D42C2B9C6900098C59 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FD81D0D82C2B9C6C00098C59 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +378,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9CYSVYA95H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftAnimations/Info.plist;
+				INFOPLIST_FILE = SwiftAnimations/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -472,7 +406,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9CYSVYA95H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftAnimations/Info.plist;
+				INFOPLIST_FILE = SwiftAnimations/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -531,42 +465,6 @@
 			};
 			name = Release;
 		};
-		FD81D0FB2C2B9C6C00098C59 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9CYSVYA95H;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bytecode.SwiftAnimationsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftAnimations;
-			};
-			name = Debug;
-		};
-		FD81D0FC2C2B9C6C00098C59 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9CYSVYA95H;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bytecode.SwiftAnimationsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftAnimations;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -593,15 +491,6 @@
 			buildConfigurations = (
 				FD81D0F82C2B9C6C00098C59 /* Debug */,
 				FD81D0F92C2B9C6C00098C59 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FD81D0FA2C2B9C6C00098C59 /* Build configuration list for PBXNativeTarget "SwiftAnimationsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD81D0FB2C2B9C6C00098C59 /* Debug */,
-				FD81D0FC2C2B9C6C00098C59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
