@@ -14,6 +14,9 @@
 		FD81D0E52C2B9C6C00098C59 /* SwiftAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D0E42C2B9C6C00098C59 /* SwiftAnimationsTests.swift */; };
 		FD81D1022C2B9EC700098C59 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D1012C2B9EC700098C59 /* View+Extensions.swift */; };
 		FD81D1052C2BA08500098C59 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D1042C2BA08500098C59 /* Coordinator.swift */; };
+		FD81D1072C2BA18D00098C59 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D1062C2BA18D00098C59 /* RootCoordinator.swift */; };
+		FD81D10A2C2BA1D900098C59 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D1092C2BA1D900098C59 /* RootViewController.swift */; };
+		FD81D10C2C2BA1E500098C59 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D10B2C2BA1E500098C59 /* RootViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 		FD81D0E42C2B9C6C00098C59 /* SwiftAnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnimationsTests.swift; sourceTree = "<group>"; };
 		FD81D1012C2B9EC700098C59 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		FD81D1042C2BA08500098C59 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		FD81D1062C2BA18D00098C59 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		FD81D1092C2BA1D900098C59 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FD81D10B2C2BA1E500098C59 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 		FD81D0FF2C2B9DE300098C59 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				FD81D1082C2BA1CA00098C59 /* Root */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -133,8 +140,18 @@
 			isa = PBXGroup;
 			children = (
 				FD81D1042C2BA08500098C59 /* Coordinator.swift */,
+				FD81D1062C2BA18D00098C59 /* RootCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		FD81D1082C2BA1CA00098C59 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				FD81D1092C2BA1D900098C59 /* RootViewController.swift */,
+				FD81D10B2C2BA1E500098C59 /* RootViewModel.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD81D1052C2BA08500098C59 /* Coordinator.swift in Sources */,
+				FD81D10C2C2BA1E500098C59 /* RootViewModel.swift in Sources */,
 				FD81D0CE2C2B9C6900098C59 /* AppDelegate.swift in Sources */,
+				FD81D10A2C2BA1D900098C59 /* RootViewController.swift in Sources */,
+				FD81D1072C2BA18D00098C59 /* RootCoordinator.swift in Sources */,
 				FD81D0D02C2B9C6900098C59 /* SceneDelegate.swift in Sources */,
 				FD81D1022C2B9EC700098C59 /* View+Extensions.swift in Sources */,
 			);
