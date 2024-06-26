@@ -12,6 +12,7 @@
 		FD81D0D72C2B9C6C00098C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD81D0D62C2B9C6C00098C59 /* Assets.xcassets */; };
 		FD81D0DA2C2B9C6C00098C59 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FD81D0D92C2B9C6C00098C59 /* Base */; };
 		FD81D0E52C2B9C6C00098C59 /* SwiftAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D0E42C2B9C6C00098C59 /* SwiftAnimationsTests.swift */; };
+		FD81D1022C2B9EC700098C59 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81D1012C2B9EC700098C59 /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		FD81D0DB2C2B9C6C00098C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD81D0E02C2B9C6C00098C59 /* SwiftAnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD81D0E42C2B9C6C00098C59 /* SwiftAnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnimationsTests.swift; sourceTree = "<group>"; };
+		FD81D1012C2B9EC700098C59 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		FD81D0CC2C2B9C6900098C59 /* SwiftAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				FD81D1002C2B9EBA00098C59 /* Extensions */,
 				FD81D0FF2C2B9DE300098C59 /* Presentation */,
 				FD81D0FE2C2B9DDB00098C59 /* Application */,
 				FD81D0FD2C2B9D4200098C59 /* Resources */,
@@ -113,6 +116,14 @@
 			children = (
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FD81D1002C2B9EBA00098C59 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD81D1012C2B9EC700098C59 /* View+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +228,7 @@
 			files = (
 				FD81D0CE2C2B9C6900098C59 /* AppDelegate.swift in Sources */,
 				FD81D0D02C2B9C6900098C59 /* SceneDelegate.swift in Sources */,
+				FD81D1022C2B9EC700098C59 /* View+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
